@@ -31,7 +31,7 @@ jobs:
         image: ${{ env.IMAGE_NAME }}
         tags: ${{ env.IMAGE_TAG }}
         platforms: linux/amd64, linux/arm64
-        archs: amd64, arm64
+        # archs: amd64, arm64
         containerfiles: ./Containerfile
 
     - name: Push to Github Package
