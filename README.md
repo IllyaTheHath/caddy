@@ -1,8 +1,7 @@
-# kwaa/caddy
+# IllyaTheHath/caddy
 
-![build](https://github.com/IllyaTheHath/caddy/actions/workflows/build.yml/badge.svg)
-![docker](https://github.com/IllyaTheHath/caddy/actions/workflows/docker.yml/badge.svg)
-![docker pulls](https://img.shields.io/docker/pulls/IllyaTheHath/caddy.svg)
+![build](https://github.com/IllyaTheHath/caddy/actions/workflows/build.yaml/badge.svg)
+![docker](https://github.com/IllyaTheHath/caddy/actions/workflows/package.yaml/badge.svg)
 
 caddy, build with:
 
@@ -23,8 +22,6 @@ wget -O /usr/bin/caddy https://github.com/IllyaTheHath/caddy/raw/main/caddy_arm6
 or:
 
 ```bash
-docker pull IllyaTheHath/caddy # DockerHub
-
 docker pull ghcr.io/IllyaTheHath/caddy # GitHub Container Registry
 ```
 
